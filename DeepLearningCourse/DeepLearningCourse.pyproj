@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6fe2ec62-7762-4281-a840-779c839fceb7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Network.py</StartupFile>
+    <StartupFile>PaddleFirstBlood.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="DeepLearningCourse.py" />
     <Compile Include="Network.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PaddleFirstBlood.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
