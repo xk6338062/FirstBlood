@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6fe2ec62-7762-4281-a840-779c839fceb7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Network.py</StartupFile>
+    <StartupFile>mnist.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DeepLearningCourse.py" />
+    <Compile Include="mnist.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Network.py">
       <SubType>Code</SubType>
     </Compile>
