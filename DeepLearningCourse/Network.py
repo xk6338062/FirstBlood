@@ -140,7 +140,7 @@ training_data,test_data = net.load_data()
 #y = train_data[:,-1:]
 num_iterations = 100
 losses = net.train(training_data,50,100,eta=0.1)
-plot_x=np.arange(len(losses))
-plot_y =np.array(losses)
+plot_x = np.arange(len(losses))
+plot_y = np.array(losses)
 plt.plot(plot_x,plot_y)
 plt.show()
